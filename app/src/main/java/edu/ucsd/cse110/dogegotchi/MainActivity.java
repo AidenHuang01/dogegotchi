@@ -203,8 +203,8 @@ public class MainActivity extends Activity {
         stateBitmaps.put(Doge.State.SLEEPING,
                          BitmapFactory.decodeResource(getResources(), R.drawable.sleeping_2x));
         stateCoords.put(Doge.State.SLEEPING,
-                        new Coord(getResources().getInteger(R.integer.sad_x),
-                                getResources().getInteger(R.integer.sad_y)));
+                        new Coord(getResources().getInteger(R.integer.sleeping_x),
+                                getResources().getInteger(R.integer.sleeping_y)));
 
         // TODO: Exercise 2 - Set up sprite and coords for EATING state.
 
